@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+
+    background-color: #F5F5F5;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.header-container{
+    height: 11.75vh;
+    padding-top: 10px;
+    background-color: #003366;
+}
+
+.logo {
+    display: flex;
+    width: 30vw;
+    max-height: 10px;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.logo img {
+    height: 3.5rem;
+    padding-left: 30px;
+}
+
+.logo h2 {
+    padding: 13px 0 0 15px;
+    margin-top: 0;
+}
+
+.menu {
+    display: flex;
+    float: right;
+}
+
+.menu a {
+    padding: 10px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.definicion {
+    padding: 20px 60px;
+    display: flex;
+}
+
+.definicion div {
+    background-color: #E0E0E0;
+    padding: 20px 25px;
+}
+
+.definicion p {
+    padding-top: 10px;
+}
+
+.definicion2 {
+    padding: 5px 60px;
+    max-width: 75vw;
+}
+
+.definicion2 div {
+    background-color: #E0E0E0;
+    display: inline-flex;
+    float: left;
+    padding: 20px 25px;
+}
+
+.definicion2 p {
+    padding-left: 10px;
+}
+
+.definicion2 h2 {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.image {
+    display: flex;
+    float: right;
+    padding-right: 60px;
+}
+
+.image img {
+    height: 175px;
+    width: 20vw;
+}
+
+
+.vent_desv {
+    display: flex;
+    padding: 20px 60px;
+}
+
+.ventdes {
+    background-color: #E0E0E0;
+    list-style-position: inside;
+    padding: 20px 25px;
+}
+
+.ventdes ol {
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+.sec-mejo {
+    display: flex;
+    padding: 5px 60px;
+}
+
+.container-img {
+    padding: 5px 60px;
+}
+
+.mejoras-tec {
+    background-color: #E0E0E0;
+    list-style-position: inside;
+    display: flex;
+    width: 65vw;
+    float: right;
+}
+
+.img-bigd img {
+    display: flex;
+    float: left;
+    height: 250px;
+    max-width: 25vw;
+}
+
+.mejoras-tec div {
+    padding: 20px 25px;
+}
+
+.mejoras-tec ul {
+    padding-left: 20px;
+}
+
+.mejoras-tec p {
+    padding-top: 10px;
+}
+
+.sec-auth {
+    display: flex;
+    padding: 5px 60px;
+    max-height: 250px;
+}
+
+.authors h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+
+.authors-divs {
+    background-color: #E0E0E0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 50px 25px;
+    max-width: 30%;
+    max-height: 10vh;
+    justify-content: space-around;
+}
+
+.authors-divs img {
+    max-width: 35%;
+    height: 120px;
+    border-radius: 50%;
+    filter: grayscale(10);
+}
+
+.section-carac {
+    padding: 5px 60px;
+}
+
+.por-2 div {
+    background-color: #E0E0E0;
+    list-style-position: inside;
+    padding: 20px 25px;
+}
+
+.section-carac ul {
+    padding-left: 20px;   
+    padding-top: 12px;
+}
+
+.section-vent {
+    padding: 5px 60px;
+}
+
+.section-vent ol {
+    padding-top: 12px;
+}
+
+.definicion a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.definicion img {
+    display: flex;
+    height: 25vh;
+    margin: auto;
+}
+
+.despedida img {
+    display: flex;
+    margin: auto;
+}
+
+.despedida h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
