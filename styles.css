@@ -168,7 +168,7 @@ html {
     display: inline-flex;
     flex-wrap: wrap;
     padding: 50px 25px;
-    max-width: 30%;
+    max-width: 25vw;
     max-height: 10vh;
 }
 
