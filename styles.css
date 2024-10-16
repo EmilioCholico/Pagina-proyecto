@@ -152,6 +152,7 @@ html {
     display: flex;
     padding: 5px 60px;
     max-height: 250px;
+    justify-content: space-around;
 }
 
 .authors h2 {
@@ -169,7 +170,6 @@ html {
     padding: 50px 25px;
     max-width: 30%;
     max-height: 10vh;
-    justify-content: space-around;
 }
 
 .authors-divs img {
