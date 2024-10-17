@@ -5,7 +5,6 @@
 
 html {
     box-sizing: border-box;
-
     background-color: #F5F5F5;
 }
 
@@ -13,44 +12,62 @@ html {
     box-sizing: inherit;
 }
 
-.header-container{
-    height: 11.75vh;
-    padding-top: 10px;
+.menu {
+    padding: 0;
     background-color: #003366;
+    height: 12.5vh;
+}
+
+
+.nav-container {
+    display: flex;
+    width: 47vw;
+    float: right;
+    padding-right: 5px;
+    padding-top: 4.5vh;
+}
+
+.nav-container hr {
+    margin: 0 6px 0 6px;
+}
+
+.nav-container a {
+    font-size: 83%;
 }
 
 .logo {
     display: flex;
     width: 30vw;
-    max-height: 10px;
+    float: left;
     text-decoration: none;
     color: #F5F5F5;
+    padding: 1.5vh 0 0 1.5vw;
 }
 
 .logo img {
-    height: 3.5rem;
-    padding-left: 30px;
+    height: 9vh;
+    padding-left: 3.5vw;
 }
 
 .logo h2 {
-    padding: 13px 0 0 15px;
+    padding: 2.3vh 0 0 1vw;
     margin-top: 0;
 }
 
-.menu {
+.nav-container {
     display: flex;
-    float: right;
+    margin-right: auto;
 }
 
-.menu a {
-    padding: 10px;
+.nav-container a {
     color: #F5F5F5;
     text-decoration: none;
 }
 
 .definicion {
-    padding: 20px 60px;
     display: flex;
+    padding: 20px 60px;
+    width: 100%;
 }
 
 .definicion div {
@@ -61,6 +78,7 @@ html {
 .definicion p {
     padding-top: 10px;
 }
+
 
 .definicion2 {
     padding: 5px 60px;
@@ -85,19 +103,19 @@ html {
 }
 
 .image {
-    display: flex;
     float: right;
     padding-right: 60px;
 }
 
 .image img {
-    height: 175px;
+    height: 28vh;
     width: 20vw;
 }
 
 
 .vent_desv {
     display: flex;
+    width: 100%;
     padding: 20px 60px;
 }
 
@@ -173,7 +191,7 @@ html {
 }
 
 .authors-divs img {
-    max-width: 35%;
+    max-width: auto;
     height: 120px;
     border-radius: 50%;
     filter: grayscale(10);
